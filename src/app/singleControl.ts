@@ -7,7 +7,7 @@ import { FormControl, Validators } from '@angular/forms';
 })
 export class SingleControlComponent {
   name: FormControl;
-  outputValue: string;
+  outputValue = '';
 
   constructor() {
     this.name = new FormControl('', Validators.required);
