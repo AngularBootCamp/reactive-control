@@ -5,10 +5,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { SingleControlComponent } from './singleControl';
 
 @NgModule({
-  declarations: [
-    SingleControlComponent
-  ],
+  declarations: [SingleControlComponent],
   imports: [BrowserModule, ReactiveFormsModule],
   bootstrap: [SingleControlComponent]
 })
-export class AppModule { }
+export class AppModule {}
