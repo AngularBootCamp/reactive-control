@@ -3,7 +3,7 @@ import { FormControl, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './singleControl.html'
+  templateUrl: './single-control.component.html'
 })
 export class SingleControlComponent {
   name: FormControl;

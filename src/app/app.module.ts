@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { SingleControlComponent } from './singleControl';
+import { SingleControlComponent } from './single-control.component';
 
 @NgModule({
   declarations: [SingleControlComponent],
