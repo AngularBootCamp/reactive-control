@@ -2,11 +2,11 @@ import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { SingleControlComponent } from './single-control.component';
+import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [SingleControlComponent],
+  declarations: [AppComponent],
   imports: [BrowserModule, ReactiveFormsModule],
-  bootstrap: [SingleControlComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule {}

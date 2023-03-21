@@ -3,9 +3,9 @@ import { FormControl, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './single-control.component.html'
+  templateUrl: './app.component.html'
 })
-export class SingleControlComponent {
+export class AppComponent {
   name: FormControl;
   outputValue = '';
 
