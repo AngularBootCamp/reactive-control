@@ -1,9 +1,15 @@
 import { Component } from '@angular/core';
-import { FormControl, Validators } from '@angular/forms';
+import {
+  FormControl,
+  Validators,
+  ReactiveFormsModule
+} from '@angular/forms';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html'
+  templateUrl: './app.component.html',
+  standalone: true,
+  imports: [ReactiveFormsModule]
 })
 export class AppComponent {
   name: FormControl;
